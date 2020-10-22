@@ -29,7 +29,7 @@ or checkout [this link](https://anaconda.com) to download the newest version.
 
 ### Option 2: Use JupyterHub from within the university intranet
 
-If you're already connected via Wifi to eduroam or via LAN in the university, you can access the JupyterHub, a Jupyter Notebook server runnning in the university cloud. As a student or employee of the university, you can use your default login credentials to login here
+**If you're already connected via Wifi to eduroam or via LAN in the university,** you can access the JupyterHub, a Jupyter Notebook server runnning in the university cloud. As a student or employee of the university, you can use your default login credentials to login here
     
 [https://jupyterhub.wolke.uni-greifswald.de/hub/login](https://jupyterhub.wolke.uni-greifswald.de/hub/login)
     
@@ -39,7 +39,7 @@ You should see then a **Launcher-Tab** where you can choose to open a new **Pyth
     
 ### Option 3: Use JupterHub remotely from home or anywhere else
     
-**If you are not connected to eduroam or in the university intranet** because you're working from home, you have to install and setup a VPN client. Follow [these](https://rz.uni-greifswald.de/en/services/technical-infrastructure/vpn/) instructions to install and setup the VPN client for the university of Greifswald  before you can use the JupyterHub in the university cloud.
+**If you are not connected to eduroam - or - if you're working from home**, you have to install and setup a VPN client. Follow [these](https://rz.uni-greifswald.de/en/services/technical-infrastructure/vpn/) instructions to install and setup the VPN client for the university of Greifswald  before you can use the JupyterHub in the university cloud. **In any case you need the university login credentials to have VPN access to the university intranet.**
     
 ### Download the course materials
     
@@ -47,6 +47,7 @@ You should see then a **Launcher-Tab** where you can choose to open a new **Pyth
     
 `
 %%bash
+
 git clone https://github.com/fwilde/pyintro
 `
 
