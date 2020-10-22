@@ -45,18 +45,17 @@ You should see then a **Launcher-Tab** where you can choose to open a new **Pyth
     
 **If you're using the JupyterHub**, either open a new Python 3 notebook and copy the lines
     
-`
+```
 %%bash
-
 git clone https://github.com/fwilde/pyintro
-`
+```
 
 into a cell of a new notebook and then execute the cell with **CTRL + Enter**.
       
 **If you're using a locally installed version of Anaconda**, simply go to an arbitrary directory and clone the github repository with the course materials using the following command in a terminal:    
    
-`
+```
 git clone https://github.com/fwilde/pyintro
-`
+```
     
 Then simply open one of the Jupyter notebooks. **Have fun !**
